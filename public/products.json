@@ -1,0 +1,56 @@
+[
+    {
+      "_id": 1,
+      "name": "Teeth Orthodontics",
+      "img": "https://www.pcworld.com/wp-content/uploads/2021/10/intel-cpu-rocket-lake-rear.jpg?quality=50&strip=all&w=1024",
+      "description": "Home page will have a Header (simple navbar), Banner, Tools/Parts, Business Summary, Reviews, and Footer. The tools/parts will have either 3 or 6 tools/parts. Based on your design, you can put one or more tools/parts in a row. Each tool/part should have a relevant name, image, short description, minimum order quantity, available quantity, price (per unit price), a place order/purchase/book now/ buy now button. If a user clicks on the purchase or buy now button it will take the user to the purchase page.",
+      "price": "100",
+      "minQuantity": "3",
+      "quantity": "50"
+    },
+    {
+      "_id": 2,
+      "name": "Teeth Orthodontics",
+      "img": "https://www.pcworld.com/wp-content/uploads/2021/10/intel-cpu-rocket-lake-rear.jpg?quality=50&strip=all&w=1024",
+      "description": "Home page will have a Header (simple navbar), Banner, Tools/Parts, Business Summary, Reviews, and Footer. The tools/parts will have either 3 or 6 tools/parts. Based on your design, you can put one or more tools/parts in a row. Each tool/part should have a relevant name, image, short description, minimum order quantity, available quantity, price (per unit price), a place order/purchase/book now/ buy now button. If a user clicks on the purchase or buy now button it will take the user to the purchase page.",
+      "price": "100",
+      "minQuantity": "3",
+      "quantity": "50"
+    },
+    {
+      "_id": 3,
+      "name": "Teeth Orthodontics",
+      "img": "https://www.pcworld.com/wp-content/uploads/2021/10/intel-cpu-rocket-lake-rear.jpg?quality=50&strip=all&w=1024",
+      "description": "Home page will have a Header (simple navbar), Banner, Tools/Parts, Business Summary, Reviews, and Footer. The tools/parts will have either 3 or 6 tools/parts. Based on your design, you can put one or more tools/parts in a row. Each tool/part should have a relevant name, image, short description, minimum order quantity, available quantity, price (per unit price), a place order/purchase/book now/ buy now button. If a user clicks on the purchase or buy now button it will take the user to the purchase page.",
+      "price": "100",
+      "minQuantity": "3",
+      "quantity": "50"
+    },
+    {
+      "_id": 4,
+      "name": "Teeth Orthodontics",
+      "img": "https://www.pcworld.com/wp-content/uploads/2021/10/intel-cpu-rocket-lake-rear.jpg?quality=50&strip=all&w=1024",
+      "description": "Home page will have a Header (simple navbar), Banner, Tools/Parts, Business Summary, Reviews, and Footer. The tools/parts will have either 3 or 6 tools/parts. Based on your design, you can put one or more tools/parts in a row. Each tool/part should have a relevant name, image, short description, minimum order quantity, available quantity, price (per unit price), a place order/purchase/book now/ buy now button. If a user clicks on the purchase or buy now button it will take the user to the purchase page.",
+      "price": "100",
+      "minQuantity": "3",
+      "quantity": "50"
+    },
+    {
+      "_id": 5,
+      "name": "Teeth Orthodontics",
+      "img": "https://www.pcworld.com/wp-content/uploads/2021/10/intel-cpu-rocket-lake-rear.jpg?quality=50&strip=all&w=1024",
+      "description": "Home page will have a Header (simple navbar), Banner, Tools/Parts, Business Summary, Reviews, and Footer. The tools/parts will have either 3 or 6 tools/parts. Based on your design, you can put one or more tools/parts in a row. Each tool/part should have a relevant name, image, short description, minimum order quantity, available quantity, price (per unit price), a place order/purchase/book now/ buy now button. If a user clicks on the purchase or buy now button it will take the user to the purchase page.",
+      "price": "100",
+      "minQuantity": "3",
+      "quantity": "50"
+    },
+    {
+      "_id": 6,
+      "name": "Teeth Orthodontics",
+      "img": "https://www.pcworld.com/wp-content/uploads/2021/10/intel-cpu-rocket-lake-rear.jpg?quality=50&strip=all&w=1024",
+      "description": "Home page will have a Header (simple navbar), Banner, Tools/Parts, Business Summary, Reviews, and Footer. The tools/parts will have either 3 or 6 tools/parts. Based on your design, you can put one or more tools/parts in a row. Each tool/part should have a relevant name, image, short description, minimum order quantity, available quantity, price (per unit price), a place order/purchase/book now/ buy now button. If a user clicks on the purchase or buy now button it will take the user to the purchase page.",
+      "price": "100",
+      "minQuantity": "3",
+      "quantity": "50"
+    }
+  ]

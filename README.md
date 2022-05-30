@@ -1,11 +1,44 @@
-# Getting Started with Create React App
+# Computer Organs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ [Computer-Organs-Live](https://computer-organs-4117f.web.app/).
 
-## Available Scripts
+## if you want to Check Admin Features (Use this Email and Password to login)
+* email: hasanmahmud4911@gmail.com
+* pass: 123456
 
-In the project directory, you can run:
+## Special Featured:
+* Login and Signup Authentication System. Only Email Pass and Google Login system.
+* Authorization Implementation.
+* JWT Token Base Protected Route
+* Connect stripe Payment Method System with Card Payment (International).
+* Admin & User Protected Route Implementation
+* Multi User and Admin Use this application.
+* Order Get and Order Management System Immplementation
+* for admin Site : Admin can manage all order , Payment Notification, delivery Process Update. 
+* for admin site : admin can add any user to be a Admin
+* user see all order and payment status. user also can cancle any order if this order not pay.
+* User & admin can update Profile . like name education phone number etc.
+* only admin add any product on this site. and disply home page ony 6 recent added product.
 
+
+## Client Site Tools and Technology:
+* React.js
+* firebase
+* axios
+* React Query
+* React router dom
+* react-firebase-Hook
+* tailwind CSS
+* daisyUi (tailwind Farmework)
+* JWT Token System
+
+## Backend Tools and Technology
+* Express
+* MongoDb
+* JWT Token
+* Stripe Payment System
+* nodemon
+* Dotenv
 ### `npm start`
 
 Runs the app in the development mode.\
