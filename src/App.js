@@ -22,6 +22,7 @@ import AddProduct from './Pages/Dashboard/AddProduct';
 import Payment from './Pages/Dashboard/Payment';
 import Blog from './Pages/Home/Blog';
 import Profile from './Pages/Dashboard/Profile';
+import AllOrder from './Pages/Dashboard/AllOrder';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path='users' element={<RequireAdmin><Users></Users></RequireAdmin>}></Route>
           <Route path='addProduct' element={<RequireAdmin><AddProduct></AddProduct></RequireAdmin>}></Route>
           <Route path='manageProduct' element={<RequireAdmin><Manage></Manage></RequireAdmin>}></Route>
+          <Route path='allorder' element={<RequireAdmin><AllOrder></AllOrder></RequireAdmin>}></Route>
         </Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>

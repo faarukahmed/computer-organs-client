@@ -1,5 +1,4 @@
-import axios from 'axios';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
@@ -16,16 +15,23 @@ const Checkout = ({product, quantities}) => {
             address: event.target.address.value,
             phone: event.target.phone.value,
             price: price,
+            img: img,
             quantities: quantities,
         }
-        axios.post('https://whispering-river-72827.herokuapp.com/order', order)
-        .then(response =>{
-            const {data} = response;
-            if(data.insertedId){
-                toast('Your order is booked!!!');
-                event.target.reset();
-            }
-        })
+    
+            fetch('https://whispering-river-72827.herokuapp.com/order', {
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json',
+                    'authorization': `Bearer ${localStorage.getItem('accessToken')}`
+                  },
+                  body: JSON.stringify(order)
+            })
+            .then(res => res.json())
+            .then( data => {
+                toast('Product Added')
+            })
+
     }
     return (
         <div>

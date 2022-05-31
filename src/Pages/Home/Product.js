@@ -13,7 +13,7 @@ const Product = ({ product }) => {
   return (
     <div class="card w-96 bg-base-100 shadow-xl justify-self-start">
       <figure className='pl-5 pt-5'>  
-        <img
+        <img style={{width: '200px'}}
           src={img}
           alt="Shoes"
         />

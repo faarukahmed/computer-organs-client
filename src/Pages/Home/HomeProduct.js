@@ -13,7 +13,7 @@ const HomeProduct = ({product}) => {
     return (
         <div class="card  bg-base-100 shadow-xl justify-self-start">
         <figure className='w-25 pl-5 pt-5'>  
-          <img
+          <img style={{width: '200px'}}
             src={img}
             alt="Shoes"
           />
@@ -22,7 +22,7 @@ const HomeProduct = ({product}) => {
           <h2 class="card-title">{name}</h2>
           <h3 className="text-2xl text-bold">Price: ${price}</h3>
           <p>{description.slice(0, 200)}</p>
-          <p>Minimum Quantity: {minQuantity}</p>
+        <p>Minimum Quantity: {minQuantity}</p>
           <p>Available Quantity: {quantity}</p>
           <div class="card-actions justify-center">
             <button onClick={() => navigateToProductDetail(_id)} class="btn btn-primary">Buy Now</button>
