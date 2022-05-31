@@ -11,8 +11,8 @@ const HomeProduct = ({product}) => {
   
     }
     return (
-        <div class="card w-96 bg-base-100 shadow-xl justify-self-start">
-        <figure className='pl-5 pt-5'>  
+        <div class="card  bg-base-100 shadow-xl justify-self-start">
+        <figure className='w-25 pl-5 pt-5'>  
           <img
             src={img}
             alt="Shoes"

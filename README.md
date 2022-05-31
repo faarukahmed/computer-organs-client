@@ -3,8 +3,8 @@
  [Computer-Organs-Live](https://computer-organs-4117f.web.app/).
 
 ## if you want to Check Admin Features (Use this Email and Password to login)
-* email: hasanmahmud4911@gmail.com
-* pass: 123456
+* email: admin@gmail.com
+* pass: useradmin
 
 ## Special Featured:
 * Login and Signup Authentication System. Only Email Pass and Google Login system.

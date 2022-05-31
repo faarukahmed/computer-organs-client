@@ -5,7 +5,6 @@ const useAdmin = user =>{
     const [adminLoading, setAdminLoading] = useState(true)
     useEffect( () =>{
         const email = user?.email;
-        console.log(email)
         if( email ){
             fetch(`https://whispering-river-72827.herokuapp.com/admin/${email}`, {
             method: 'GET',

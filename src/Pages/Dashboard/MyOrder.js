@@ -37,6 +37,9 @@ const MyOrder = () => {
       const url = `https://whispering-river-72827.herokuapp.com/order/${id}`;
       fetch(url, {
         method: "delete",
+        headers: {
+          authorization: `Bearer ${localStorage.getItem('accessToken')}`
+      }
       })
         .then((res) => res.json())
         .then((data) => {
@@ -68,7 +71,7 @@ const MyOrder = () => {
                     <td>{order.price}</td>
                     <td>{order.quantities}</td>
                     <td>{order.transactionId}</td>
-                    <td><button style={{backgroundColor: 'lightgray', padding: '3px 8px', borderRadius: '0px 5px 0px 5px'}} onClick={() => handleDelete(order._id)}>cancel</button></td>
+                    <td>{!order.paid && <button style={{backgroundColor: 'lightgray', padding: '3px 8px', borderRadius: '0px 5px 0px 5px'}} onClick={() => handleDelete(order._id)}>cancel</button>}</td>
                     <td>
                     {(order.price && !order.paid) && <Link to={`/dashboard/payment/${order._id}`}><button className='btn btn-xs btn-success'>pay</button></Link>}
                                     {(order.price && order.paid) && <div>
